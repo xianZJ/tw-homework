@@ -2,66 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3d727e-a3a5-4ea5-bb22-0d497b87a35b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/modules.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/paths.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/pnpTs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/card/card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/filter/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/filter/filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/history/history.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/nav/nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/tab/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/tab/tab.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/card/card.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/history/history.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/nav/nav.less" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/list/list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/card/card.js" afterPath="$PROJECT_DIR$/src/components/card/card.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.js" afterPath="$PROJECT_DIR$/src/components/header/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/history/history.js" afterPath="$PROJECT_DIR$/src/components/history/history.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav/nav.js" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serviceWorker.js" afterPath="$PROJECT_DIR$/src/serviceWorker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/font icons/_DS_Store" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts.css" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts.png" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts/cruise.svg" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts/cruise.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts/cruise.ttf" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts/cruise.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts/cruise.woff" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts/cruise.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/logo/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/logo/_DS_Store" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/logo/avatar.jpg" afterPath="$PROJECT_DIR$/src/assets/logo/avatar.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/logo/logo.svg" afterPath="$PROJECT_DIR$/src/assets/logo/logo.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Desktop HD.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Desktop HD.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Desktop.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Desktop.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Guide 2.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Guide 2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Guide.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Guide.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Mobile Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Mobile Portrait.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Tablet Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Tablet Portrait.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/mockups/1/_DS_Store" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Desktop HD.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Desktop HD.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Desktop.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Desktop.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Mobile Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Mobile Portrait.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Tablet Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Tablet Portrait.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/os icons/_DS_Store" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/cent_os.png" afterPath="$PROJECT_DIR$/src/assets/os icons/cent_os.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/debin.png" afterPath="$PROJECT_DIR$/src/assets/os icons/debin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/suse.png" afterPath="$PROJECT_DIR$/src/assets/os icons/suse.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/ubuntu.png" afterPath="$PROJECT_DIR$/src/assets/os icons/ubuntu.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/windows.png" afterPath="$PROJECT_DIR$/src/assets/os icons/windows.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/header.less" afterPath="$PROJECT_DIR$/src/components/header/header.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,58 +21,25 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="237">
+              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#812#1312#0" expanded="false" />
+                <element signature="e#855#1355#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/list/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+            <state relative-caret-position="155">
+              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
-                <element signature="e#265#333#0" expanded="false" />
-                <element signature="e#641#893#0" expanded="false" />
+                <element signature="e#360#2247#0" expanded="false" />
+                <element signature="e#378#696#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/filter/filter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#209#529#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/filter/filter.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/tab/tab.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -182,13 +92,14 @@
         <option value="$PROJECT_DIR$/src/components/card/card.js" />
         <option value="$PROJECT_DIR$/src/components/card/card.scss" />
         <option value="$PROJECT_DIR$/src/components/header/header.scss" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/components/header/header.js" />
         <option value="$PROJECT_DIR$/src/components/tab/tab.js" />
         <option value="$PROJECT_DIR$/src/components/tab/tab.scss" />
         <option value="$PROJECT_DIR$/src/components/filter/filter.js" />
         <option value="$PROJECT_DIR$/src/components/filter/filter.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/list/list.js" />
       </list>
     </option>
   </component>
@@ -204,10 +115,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="52" />
-    <option name="width" value="1778" />
-    <option name="height" value="992" />
+    <option name="x" value="501" />
+    <option name="y" value="88" />
+    <option name="width" value="1400" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -244,55 +155,7 @@
               <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="history" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="nav" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="tab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37820000" />
+    <option name="totallyTimeSpent" value="40474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,10 +231,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="501" y="88" width="1400" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17917548" sideWeight="0.49384615" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036928" sideWeight="0.49384615" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -379,7 +242,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17917548" sideWeight="0.5061538" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29683974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26481715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -427,7 +290,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/list/list.js</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -620,17 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#812#1312#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/tab/tab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -679,6 +539,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#209#529#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/tab/tab.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -698,22 +577,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="237">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#209#529#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#855#1355#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/list/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="155">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#360#2247#0" expanded="false" />
+            <element signature="e#378#696#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

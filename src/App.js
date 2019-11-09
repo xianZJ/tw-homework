@@ -5,8 +5,9 @@ import Nav from './components/nav/nav'
 import History from './components/history/history'
 import Card from './components/card/card'
 import Filter from './components/filter/filter'
-
+import List from './components/list/list'
 function App() {
+
     return (
         <div className="App">
             <Header  avatar=""/>
@@ -35,7 +36,7 @@ function App() {
                     </Card>
                 </div>
                 <Filter ></Filter>
-                <List data={this.datat.menu}></List>
+                <List ></List>
             </section>
         </div>
     );
