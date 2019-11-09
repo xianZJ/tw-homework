@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'underscore'
-import  './history.less';
+import './history.scss';
 class History extends React.Component{
     constructor(props){
         super(props);
@@ -15,12 +15,15 @@ class History extends React.Component{
     }
     render(){
         let list = this.state.list.map((item,index) => {
-            return <div key={index}>{item.text}</div>
+            return <li className="fs12" key={index}>{item.text}</li>
         });
         console.log('list= ', list)
         return (
-            <div>
-                {list}
+            <div className="history">
+                <span className="f24">History</span>
+                <ul>
+                    {list}
+                </ul>
             </div>
         )
     }

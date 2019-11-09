@@ -1,0 +1,62 @@
+@import '../../common';
+
+.card{
+  height:144px;
+  color:white;
+  display:inline-block;
+  float:left;
+  position:relative;
+  .card-status{
+    position:absolute;
+    top:10px;
+    left:20px;
+    font-weight:bold;
+  }
+  .card-icon{
+    font-size:144px;
+    opacity:0.2;
+  }
+  .card-num{
+    position:absolute;
+    bottom:15px;
+    right:20px;
+  }
+}
+.card1{
+  height:144px;
+  color:black;
+  display:inline-block;
+  float:left;
+  position:relative;
+  background:white;
+}
+.type1{
+  background-color:$building-color;
+}
+.type2{
+  background-color:$idle-color;
+}
+
+
+@media (min-width: 767px){
+
+}
+@media (min-width: 768px){
+  .card{
+    width:30%;
+    margin-right: 5%;
+  }
+  .card1{
+    width:30%;
+  }
+}
+
+@media (min-width: 1023px){
+  .card{
+    width:30%;
+    margin-right: 5%;
+  }
+  .card:last-child{
+    margin-right:0;
+  }
+}

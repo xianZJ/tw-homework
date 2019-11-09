@@ -2,9 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3d727e-a3a5-4ea5-bb22-0d497b87a35b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/modules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/paths.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/pnpTs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/card/card.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/filter/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/filter/filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/history/history.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/nav/nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/tab/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/tab/tab.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/card/card.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/common.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/history/history.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/nav/nav.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/card/card.js" afterPath="$PROJECT_DIR$/src/components/card/card.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.js" afterPath="$PROJECT_DIR$/src/components/header/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/history/history.js" afterPath="$PROJECT_DIR$/src/components/history/history.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nav/nav.js" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serviceWorker.js" afterPath="$PROJECT_DIR$/src/serviceWorker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/font icons/_DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts.css" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts.png" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts/cruise.svg" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts/cruise.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts/cruise.ttf" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts/cruise.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/font icons/fonts/cruise.woff" afterPath="$PROJECT_DIR$/src/assets/font icons/fonts/cruise.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/logo/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/logo/_DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/logo/avatar.jpg" afterPath="$PROJECT_DIR$/src/assets/logo/avatar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/logo/logo.svg" afterPath="$PROJECT_DIR$/src/assets/logo/logo.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Desktop HD.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Desktop HD.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Desktop.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Desktop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Guide 2.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Guide 2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Guide.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Guide.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Mobile Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Mobile Portrait.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/Tablet Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/1/Tablet Portrait.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/1/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/mockups/1/_DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Desktop HD.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Desktop HD.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Desktop.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Desktop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Mobile Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Mobile Portrait.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/mockups/2/Tablet Portrait.png" afterPath="$PROJECT_DIR$/src/assets/mockups/2/Tablet Portrait.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/_DS_Store" afterPath="$PROJECT_DIR$/src/assets/os icons/_DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/cent_os.png" afterPath="$PROJECT_DIR$/src/assets/os icons/cent_os.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/debin.png" afterPath="$PROJECT_DIR$/src/assets/os icons/debin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/suse.png" afterPath="$PROJECT_DIR$/src/assets/os icons/suse.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/ubuntu.png" afterPath="$PROJECT_DIR$/src/assets/os icons/ubuntu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/os icons/windows.png" afterPath="$PROJECT_DIR$/src/assets/os icons/windows.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/header.less" afterPath="$PROJECT_DIR$/src/components/header/header.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +75,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="470">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#812#1312#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="707">
+              <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+              <folding>
+                <element signature="e#265#333#0" expanded="false" />
+                <element signature="e#641#893#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/filter/filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#209#529#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/filter/filter.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <file leaf-file-name="tab.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/tab/tab.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -47,6 +143,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test:</find>
+      <find>cssRegex</find>
+      <find>oneof</find>
+      <find>@</find>
+      <find>card-overview</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,19 +163,32 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/common.less" />
         <option value="$PROJECT_DIR$/src/components/card/Cards.js" />
-        <option value="$PROJECT_DIR$/src/components/card/card.less" />
         <option value="$PROJECT_DIR$/src/components/card/cards.js" />
         <option value="$PROJECT_DIR$/src/components/nav/nav.less" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/history/history.less" />
-        <option value="$PROJECT_DIR$/src/components/card/card.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.less.js" />
-        <option value="$PROJECT_DIR$/src/components/history/history.js" />
-        <option value="$PROJECT_DIR$/src/components/nav/nav.js" />
-        <option value="$PROJECT_DIR$/src/components/header/header.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.less" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/card/card.less" />
+        <option value="$PROJECT_DIR$/config/webpackDevServer.config.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/components/common.scss" />
+        <option value="$PROJECT_DIR$/src/components/nav/nav.js" />
+        <option value="$PROJECT_DIR$/src/components/nav/nav.scss" />
+        <option value="$PROJECT_DIR$/src/components/history/history.scss" />
+        <option value="$PROJECT_DIR$/src/common.scss" />
+        <option value="$PROJECT_DIR$/src/components/history/history.js" />
+        <option value="$PROJECT_DIR$/src/components/card/card.js" />
+        <option value="$PROJECT_DIR$/src/components/card/card.scss" />
+        <option value="$PROJECT_DIR$/src/components/header/header.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/components/header/header.js" />
+        <option value="$PROJECT_DIR$/src/components/tab/tab.js" />
+        <option value="$PROJECT_DIR$/src/components/tab/tab.scss" />
+        <option value="$PROJECT_DIR$/src/components/filter/filter.js" />
+        <option value="$PROJECT_DIR$/src/components/filter/filter.scss" />
       </list>
     </option>
   </component>
@@ -83,10 +204,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="588" />
-    <option name="y" value="42" />
-    <option name="width" value="1400" />
-    <option name="height" value="957" />
+    <option name="x" value="-10" />
+    <option name="y" value="52" />
+    <option name="width" value="1778" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,6 +235,65 @@
               <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="history" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw-homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw-homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="tab" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -129,9 +309,19 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="F:\tw-demo\tw-homework\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/tw-homework/src/components/nav/nav.scss" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\tw-homework\src" />
+      <recent name="F:\tw-homework" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\tw-homework\src\components\tabs" />
+      <recent name="F:\tw-homework\src\components\filter" />
       <recent name="F:\tw-demo\tw-homework\assets" />
     </key>
   </component>
@@ -150,6 +340,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5d3d727e-a3a5-4ea5-bb22-0d497b87a35b" name="Default" comment="" />
@@ -163,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12090000" />
+    <option name="totallyTimeSpent" value="37820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,27 +368,56 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="42" width="1400" height="957" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17917548" sideWeight="0.49384615" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36455983" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17917548" sideWeight="0.5061538" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5372005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29683974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5372005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5372005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -218,24 +440,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/font icons/fonts/cruise.svg" />
+    <entry file="file://$PROJECT_DIR$/src/assets/font icons/fonts/cruise.svg" />
     <entry file="file://F:/thoughtworks-uidev/src/framework/app.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.less" />
+    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.scss" />
     <entry file="file://$PROJECT_DIR$/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/history/history.less" />
-    <entry file="file://$PROJECT_DIR$/src/components/common.less" />
-    <entry file="file://$PROJECT_DIR$/src/components/card/card.less" />
+    <entry file="file://$PROJECT_DIR$/src/App.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/history/history.scss" />
+    <entry file="file://$PROJECT_DIR$/src/common.scss" />
     <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/card/card.js" />
     <entry file="file://$PROJECT_DIR$/src/components/history/history.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.less" />
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="379">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -244,6 +462,257 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card/card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card/card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1573314525467" expanded="true" signature="266:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/font icons/fonts/cruise.svg" />
+    <entry file="file://F:/thoughtworks-uidev/src/framework/app.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="80" column="10" lean-forward="false" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1573296147868" expanded="true" signature="86:283" ph="{&quot;less&quot;: &quot;^3.10.3&quot;...}" />
+            <marker date="1573296147868" expanded="true" signature="298:444" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1573296147868" expanded="true" signature="464:496" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+            <marker date="1573296147868" expanded="true" signature="536:600" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/font icons/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/history/history.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/os icons/cent_os.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card/card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#136#215#0" expanded="false" />
+            <element signature="e#228#271#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <marker date="1573314525467" expanded="true" signature="266:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card/card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#812#1312#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/tab/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#160#593#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/history/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#Nav#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/tab/tab.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+          <folding>
+            <element signature="e#265#333#0" expanded="false" />
+            <element signature="e#641#893#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#209#529#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>

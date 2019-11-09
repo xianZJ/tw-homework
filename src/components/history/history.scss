@@ -1,0 +1,28 @@
+@import '../../common';
+
+.history{
+  position:absolute;
+  bottom:0px;
+  width:100%;
+  li{
+    color:#999;
+    padding:5px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 10%;
+    width:80%;
+    &:hover{
+      color: #09b4cf;
+    }
+  }
+  span{
+    color:#ccc;
+    text-align: left;
+    float:left;
+    width:100%;
+
+    margin-bottom:15px;
+    margin-left:20px;
+  }
+}

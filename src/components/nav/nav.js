@@ -1,36 +1,44 @@
 import React from 'react';
-import './nav.less';
-class Nav extends React.Component{
-    constructor(props){
+import './nav.scss';
+
+class Nav extends React.Component {
+    constructor(props) {
         super(props);
         this.state = {
             menu: [{
-                   "name":"Dashboard",
-                   "icon":"",
-                   "":"",
-                },{
-                  "name":"Agent",
-                  "icon":"",
-                },{
-                  "name":"MY CRUISE",
-                  "icon":"",
-                },{
-                  "name":"HELP",
-                  "icon":"",
-                }
+                "name": "Dashboard",
+                "icon": "icon-dashboard"
+            }, {
+                "name": "Agent",
+                "icon": "icon-sitemap",
+                "isActive":true
+            }, {
+                "name": "MY CRUISE",
+                "icon": "icon-boat",
+            }, {
+                "name": "HELP",
+                "icon": "icon-life-bouy",
+            }
             ]
         }
     }
-     render(){
-         let lis = this.state.menu.map((item,index) => {
-             return <li key={index}>{item.name}</li>
-         });
-         console.log('list= ', lis)
+
+    render() {
+        let lis = this.state.menu.map((item, index) => {
+            return <li className={'nav-menu ' + (item.isActive?"active":"")} key={index}>
+                <a>
+                    <i className={'fs20 '+ item.icon }></i>
+                    <span >{item.name}</span>
+                </a>
+            </li>
+        });
+        console.log('list= ', lis)
         return (
-            <ul>
+            <ul className="nav-menu">
                 {lis}
             </ul>
         )
-     }
+    }
 }
+
 export default Nav;

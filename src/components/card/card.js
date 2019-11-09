@@ -1,4 +1,4 @@
-import './card.less';
+import './card.scss';
 import React from 'react';
 
 class Card extends React.Component{
@@ -6,14 +6,19 @@ class Card extends React.Component{
         super(props);
     }
     render(){
+
         if(this.props.children){
-            return this.props.children;
+            return (
+                <div className="card1">
+                    {this.props.children}
+                </div>
+            )
         }else{
             return (
-                <div>
-                    <span>{this.props.text}</span>
-                    <img src={this.props.img} />
-                    <span>{this.props.number}</span>
+                <div className={'card '+ this.props.type}>
+                    <span className="fs24 card-status">{this.props.text}</span>
+                    <span className={"card-icon " + (this.props.type==='type1'?"icon-cog":"icon-coffee")} />
+                    <span className="fs48 card-num">{this.props.number}</span>
                 </div>
             )
         }

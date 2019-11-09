@@ -1,0 +1,62 @@
+
+//定义公共变量
+$building-color:#ff9a2a;
+$idle-color:#7fbc39;
+$add-color:#00b4cf;
+$add-color-hover:#01869a;
+$cancel-color:#2d4054;
+$cancel-color-hover:#435466;
+
+$dark: #e1e4e5;
+$light: #ffffff;
+$header-height: 60px;
+$nav-width:220px;
+$menu-height:45px;
+
+
+$font-size: 14px;
+$font-color :$dark;
+$font-family: 'Avenir', 'Helvetica', 'sans-serif';
+
+//清除默认样式
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  cursor: default;
+}
+
+
+//定义全局公用类样式
+.show{
+  display:block;
+}
+.hide{
+  display:none;
+}
+
+// 字体大小枚举  这快后续可以修改成generate的形式
+.fs12{
+  font-size:12px;
+}
+.fs14{
+  font-size:14px;
+}
+.fs16{
+  font-size:16px;
+}
+.fs18{
+  font-size:18px;
+}
+.fs20{
+  font-size:20px;
+}
+.fs24{
+  font-size:24px;
+}
+.fs48{
+  font-size:48px;
+}

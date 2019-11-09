@@ -1,45 +1,41 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from './components/header/header'
 import Nav from './components/nav/nav'
 import History from './components/history/history'
 import Card from './components/card/card'
+import Filter from './components/filter/filter'
+
 function App() {
     return (
         <div className="App">
-            <Header className="App-header" avatar=""/>
+            <Header  avatar=""/>
             <aside className="App-left-side">
                 <Nav className="App-left-side-nav"></Nav>
                 <History className="App-left-side-history"/>
             </aside>
             <section className="App-section">
                 <div className="App-section-overview">
-                    <Card text="Building"  number="4" />
-                    <Card text="Idle"  number="6" />
-                    <Card >
-                        <div>
+                    <Card text="Building" type="type1"  number="4" />
+                    <Card text="Idle" type="type2"  number="6" />
+                    <Card className="card-overview">
+                        <div >
                             <span>All</span>
-                            <span>8</span>
+                            <p>8</p>
                         </div>
                         <div>
                             <span>PHYSICAL</span>
-                            <span>4</span>
+                            <p>4</p>
                         </div>
 
                         <div>
                             <span>VIRTUAL</span>
-                            <span>4</span>
+                            <p>4</p>
                         </div>
                     </Card>
                 </div>
-
-                <div className="App-section-filter">
-
-                </div>
-
-                <div className="App-section-list">
-
-                </div>
+                <Filter ></Filter>
+                <List data={this.datat.menu}></List>
             </section>
         </div>
     );

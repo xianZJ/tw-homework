@@ -1,0 +1,64 @@
+@import '../../assets/font icons/fonts.css';
+@import '../../common';
+
+.header{
+  height:$header-height;
+  background:$light;
+}
+.header-logo{
+  width: 80px;
+  height: 35px;
+  margin: 15px auto;
+  margin-left:100px;
+  display:inline-block;
+  background-image: url('../../assets/logo/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header-info{
+  display:inline-block;
+  float:right;
+  width:200px;
+  height:100%;
+  ul{
+    margin-top: 60px;
+    margin-right:10px;
+    padding:20px;
+    position:relative;
+    z-index:1000;
+    background-color:white;
+    box-shadow:0 3px 5px rgba(0,0,0,.3);
+    li{
+      line-height: 30px;
+      text-align: left;
+      padding:0 10px;
+      i{
+        float:left;
+        width:20px;
+        margin-top:5px;
+        padding:0 10px;
+      }
+      &:hover{
+        background:#efefef;
+      }
+    }
+  }
+}
+.header-info-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  margin: 10px 0;
+  float: right;
+  background-image: url(../../assets/logo/avatar.jpg);
+  background-size: 100% 100%;
+}
+.header-info-arrow{
+  font-size:20px;
+  float: right;
+  height: 100%;
+  line-height: 60px;
+  margin: 0 20px;
+}
+
