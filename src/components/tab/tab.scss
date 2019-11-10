@@ -17,13 +17,23 @@
 }
 
 
-@media (min-width: 767px){
+@media (min-width: 1200px){
 
 }
-@media (min-width: 768px){
+@media (max-width: 1119px){
 
 }
+@media (max-width: 1023px){
 
-@media (min-width: 1023px){
+}
+@media (max-width: 767px){
+   .tab-item{
+     width:100%;
+     span{
+       width:33%;
+       float:left;
+       padding:0;
+     }
+   }
 
 }

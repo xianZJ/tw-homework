@@ -1,43 +1,75 @@
 @import '../../common';
 
-.filter-text{
+.filter-text {
   display: inline-block;
   float: left;
   height: 100%;
   margin-left: 40px;
-  position:relative;
-  input{
-    height:30px;
-    padding-left:40px;
-    margin-top:10px;
-    font-size:16px;
+  position: relative;
+  input {
+    height: 30px;
+    padding-left: 40px;
+    margin-top: 7px;
+    font-size: 16px;
   }
-  i{
+  i {
     position: absolute;
     left: 10px;
-    top: 19px;
+    top: 16px;
   }
 }
-.filter-icon{
+
+.filter-icon {
   display: inline-block;
   float: right;
   height: 100%;
-  margin:13px 20px;
-  i{
-    margin:0 10px;
+  margin: 13px 20px;
+  i {
+    margin: 0 10px;
   }
-  .selected{
-    color:$add-color;
+  .selected {
+    color: $add-color;
   }
 }
 
-@media (min-width: 767px){
+// Desktop HD
+@media (min-width: 1200px) {
+  .filter-icon {
+    display: none;
+  }
+}
+
+// Desktop
+@media (max-width: 1199px) {
 
 }
-@media (min-width: 768px){
 
+// Tablet
+@media (max-width: 1023px) {
+  .filter-icon {
+    display: none;
+  }
 }
 
-@media (min-width: 1023px){
-
+// Phone
+@media (max-width: 767px) {
+  .filter-text {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    /* position: absolute; */
+    margin-top: -93px;
+    background: white;
+    input {
+      background: #efefef;
+      border: none;
+      outline: none;
+      padding-left: 30px;
+      margin-top: 10px;
+      width: 90%;
+    }
+    i{
+      color: black;
+    }
+  }
 }

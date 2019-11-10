@@ -1,0 +1,218 @@
+@import '../../common.scss';
+
+.list-area{
+  height:440px;
+  overflow-y: scroll;
+  display: inline-block;
+  padding-bottom:20px;
+  &::-webkit-scrollbar {
+    display:none
+
+  }
+}
+.list-item{
+  display:inline-block;
+  height:120px;
+  width:calc(100% - 40px);
+  float:left;
+  margin:0 20px;
+  margin-bottom:20px;
+  background-color:white;
+  font-size:14px;
+
+  .list-item-logo{
+    width:80px;
+    height:80px;
+    display:inline-block;
+    float:left;
+    margin:20px;
+  }
+  .list-item-title{
+    display:inline-block;
+    float:left;
+    margin-top:15px;
+    i{
+      font-size:16px;
+      margin-right:10px;
+    }
+    span{
+      color:$add-color;
+    }
+  }
+  .list-item-tag{
+    display:inline-block;
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    .building{
+      line-height:22px;
+      display:inline-block;
+      padding:1px 5px;
+      background:$building-color;
+    }
+    .idle{
+      line-height:22px;
+      display:inline-block;
+      padding:1px 5px;
+      background:$idle-color;
+    }
+  }
+  .list-item-ip{
+    display:inline-block;
+    float:left;
+    margin-top:15px;
+    margin-left:20px;
+    i{
+      margin-top:2px;
+      margin-right:10px;
+    }
+  }
+  .list-item-path{
+    display:inline-block;
+    float:left;
+    margin-top:15px;
+    margin-left:15px;
+    i{
+      margin-top:2px;
+      margin-right:10px;
+    }
+  }
+  p{
+
+    display: inline-block;
+    height: 5px;
+    width: 200px;
+  }
+  .list-item-action{
+    height: 30px;
+    display:inline-block;
+    float:left;
+    margin-top:35px;
+    div{
+      display:inline-block;
+      float:left;
+      margin-left:10px;
+      background:#efefef;
+      padding:4px 10px;
+      i{
+        color:$cancel-color;
+        margin-left:10px;
+      }
+    }
+    &>i{
+      background:$add-color;
+      color:white;
+      font-size:18px;
+      padding:5px 10px;
+      float:left;
+      &:hover{
+        background: $add-color-hover;
+      }
+    }
+  }
+  .list-item-deny{
+    height:30px;
+    float:right;
+    color:white;
+    margin-right:20px;
+    margin-top:35px;
+    background: $add-color;
+    line-height:30px;
+    padding:0px 10px;
+    &:hover{
+      background:$add-color-hover;
+    }
+    i{
+      margin-right:10px;
+    }
+  }
+}
+
+// Desktop HD
+@media (min-width: 1200px){
+
+}
+// Desktop
+@media (max-width: 1119px){
+  .list-item-logo{
+    display:none!important;
+  }
+  .list-item{
+    padding-left:20px;
+    width: calc(100% - 60px);
+    &:last-child{
+      padding-bottom:20px;
+    }
+    p{
+      width: 125px;
+    }
+  }
+  .list-area{
+    height:360px;
+  }
+}
+// Tablet
+@media (max-width: 1023px){
+  .list-item-logo{
+    display:none!important;
+  }
+  .list-item{
+    padding-left:20px;
+    width: calc(100% - 60px);
+    &:last-child{
+      padding-bottom:20px;
+    }
+    p{
+      width: 90px;
+    }
+  }
+  .list-area{
+    height:360px;
+  }
+}
+// Phone
+@media (max-width: 767px){
+  .list-item{
+    margin:10px 5px;
+    width:calc(100% - 30px);
+    padding:10px 10px;
+    height:auto;
+    .list-item-tag{
+      display:none;
+    }
+    &:last-child{
+      padding-bottom:80px;
+    }
+    .list-item-title,.list-item-ip,.list-item-path{
+      display:inline-block;
+      width: 100%;
+      margin: 5px 0;
+      padding-left:10px;
+      text-align:left;
+    }
+    .list-item-action{
+      margin-top:10px;
+      padding:0 10px;
+      .icon-plus{
+        padding:4px;
+      }
+      div{
+        margin-bottom:10px;
+      }
+
+    }
+    .list-item-deny{
+      margin-right:0;
+    }
+    p{
+      display:none;
+    }
+  }
+  .divbuilding{
+    border-left:5px solid $building-color;
+  }
+  .dividle{
+    border-left:5px solid $idle-color;
+  }
+}
+

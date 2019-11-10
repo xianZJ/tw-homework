@@ -6,7 +6,7 @@ class Tab extends React.Component {
         super(props);
         console.log('props = ', props)
         this.state = {
-            selectValue: 0,
+            filterType: 0,
             ...props
         }
     }
@@ -14,7 +14,9 @@ class Tab extends React.Component {
     onSelected = (value,) => {
         console.log('value = ',value)
         this.setState({
-            selectValue: value
+            filterType: value
+        },() =>{
+            this.state.onSelectTab(value);
         })
     };
 
@@ -25,7 +27,7 @@ class Tab extends React.Component {
                 {this.state.menu.map((item, index) => {
                     return <span onClick={ () => { this.onSelected(item.value)}}
                                  data-value={item.value}
-                                 className={(this.state.selectValue === item.value ? "selected" : "")}
+                                 className={(this.state.filterType === item.value ? "selected" : "")}
                                  key={index}>{item.name}</span>
                 })}
             </div>

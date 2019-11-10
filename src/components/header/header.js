@@ -17,6 +17,10 @@ class Header extends React.Component{
     render(){
         return(
             <header className="header">
+                <i onClick={()=>{
+                    let dom = document.getElementsByClassName('App-left-side')[0];
+                    dom.style.display = 'block';
+                }} className='header-navicon fs24 icon-navicon' />
                 <a className="header-logo"></a>
                 <div className="header-info">
                     <i onClick={ this.onClick} className={"header-info-arrow " + (this.state.isShow?"icon-angle-up":"icon-angle-down")}>

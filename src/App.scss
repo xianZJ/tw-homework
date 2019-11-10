@@ -1,65 +1,208 @@
 @import "./common.scss";
 
-html,body,#root,.App{
+html, body, #root, .App {
   width: 100%;
-  height:100%;
-  overflow:hidden;
+  height: 100%;
+  overflow: hidden;
   text-align: center;
 }
-#root,.App{
-  max-width:1200px;
-  background:#f3f3f3;
-  display:inline-block;
+
+#root, .App {
+  max-width: 1200px;
+  background: #f3f3f3;
+  display: inline-block;
 }
 
 .App {
   text-align: center;
   overflow: hidden;
-}
-.App-header {
-  background-color: white;
-  width:100%;
-  border:1px solid red;
+  position: relative;
 }
 
-.App-left-side{
-  width:$nav-width;
-  background-color:$cancel-color;
-  height:calc(100% - 60px);
-  float:left;
-  position:relative;
+.App-header {
+  background-color: white;
+  width: 100%;
+  border: 1px solid red;
 }
-.App-section{
-  width:calc(100% - 220px);
-  float:right;
-  display:inline-block;
-  margin-top:20px;
+
+.App-modal-mask {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 99;
+  text-align: center;
 }
-.App-section-overview{
-  padding:0 20px;
+
+.App-left-side {
+  display: block;
+  width: $nav-width;
+  background-color: $cancel-color;
+  height: calc(100% - 60px);
+  float: left;
+  position: relative;
+  .close-left-side {
+    display: none;
+  }
+}
+
+.App-section {
+  width: calc(100% - 220px);
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.App-section-overview {
+  padding: 0 20px;
   overflow: hidden;
 }
-.card1{
-  div{
-    display:inline-block;
-    width:30%;
-    margin-right:5%;
-    padding:25px 0;
-    text-align:center;
-    span{
-      font-size:12px;
+
+.card1 {
+  width: 30%;
+  div {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5%;
+    padding: 25px 0;
+    text-align: center;
+    span {
+      font-size: 12px;
     }
-    p{
-      font-size:20px;
-      font-weight:bold;
+    p {
+      font-size: 20px;
+      font-weight: bold;
     }
   }
-  div:last-child{
-    margin:0;
+  div:last-child {
+    margin: 0;
   }
 }
-.App-section-filter{
-  margin:20px;
-  height:50px;
-  background-color:white;
+
+.App-section-filter {
+  margin: 20px;
+  height: 50px;
+  background-color: white;
 }
+
+.App-footer {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  line-height: 40px;
+  background: white;
+}
+
+// Desktop HD
+@media (min-width: 1200px) {
+
+}
+
+// Desktop
+@media (max-width: 1199px) {
+
+}
+
+// Tablet
+@media (max-width: 1023px) {
+  .App-left-side {
+    display: none;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+    padding-top: 60px;
+    .close-left-side {
+      display: block;
+      position: absolute;
+      float: right;
+      color: $add-color;
+      right: 20px;
+      top: 20px;
+    }
+  }
+
+  .App-section {
+    width: 100%;
+  }
+  .card1 {
+    div {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      height: 48px;
+      float: left;
+      span {
+        display: inline-block;
+        width: calc(50% - 60px);
+        padding: 0 30px;
+        float: left;
+        height: 48px;
+        line-height: 48px;
+        text-align: left;
+      }
+      p {
+        display: inline-block;
+        width: calc(50% - 60px);
+        padding: 0 30px;
+        float: left;
+        height: 48px;
+        line-height: 48px;
+        margin: 0;
+        text-align: right;
+      }
+    }
+  }
+}
+
+// Phone
+@media (max-width: 767px) {
+  .App-section-overview{
+    padding:0 5px;
+  }
+  .App-footer {
+    display: none;
+  }
+  .card1 {
+    height:90px!important;
+    margin-top:10px;
+    width:100%;
+    div {
+      display: inline-block;
+      width: 30%;
+      height:45px;
+      line-height:45px;
+      margin-right: 5%;
+      text-align: center;
+      span {
+        font-size: 12px;
+        width:100%;
+        padding:0;
+        height:45px;
+        line-height:45px;
+        text-align:center;
+      }
+      p {
+        font-size: 20px;
+        font-weight: bold;
+        height:45px;
+        width:100%;
+        padding:0;
+        text-align: center;
+        line-height:45px;
+      }
+    }
+    div:last-child {
+      margin: 0;
+    }
+  }
+  .App-section-filter{
+    margin:5px;
+    margin-top: 50px;
+  }
+}
+

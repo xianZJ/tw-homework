@@ -37,7 +37,9 @@ li {
 .hide{
   display:none;
 }
-
+.cp{
+  cursor:pointer;
+}
 // 字体大小枚举  这快后续可以修改成generate的形式
 .fs12{
   font-size:12px;
