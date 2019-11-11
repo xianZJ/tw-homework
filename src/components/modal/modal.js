@@ -6,6 +6,7 @@ class Modal extends React.Component {
         super(props);
         this.state = {
             isShowModal: true,
+            addItem: '',
             ...props
         }
     }
@@ -21,8 +22,22 @@ class Modal extends React.Component {
             isShowModal: !this.state.isShowModal
         }, () => {
             this.state.onStateChange(this.state);
+            this.setState({
+                addItem:null,
+                selectedId:null
+            });
+            this.refs['addItemInput'].value = "";
         })
     };
+
+    onAddItem = () => {
+        this.setState({
+            addItem: this.refs['addItemInput'].value
+        },()=>{
+            this.onToggle(null,1)
+        })
+    };
+
 
     render() {
         return (
@@ -32,9 +47,9 @@ class Modal extends React.Component {
                     }}/>
                     <span className="modal-triangle"></span>
                     <p>Separate multiple resource name with commas</p>
-                    <input placeholder='Input value' type="text" />
+                    <input ref='addItemInput'  placeholder='Input value' type="text" />
                     <span className="cp modal-action-add" onClick={(e)=>{
-                        this.onToggle(e,1);
+                        this.onAddItem();
                     }}>Add Resource</span>
                     <span className="cp modal-action-cancel"  onClick={(e) => {
                         this.onToggle(e,1);

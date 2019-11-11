@@ -1,7 +1,7 @@
 import React from 'react';
 import './list.scss'
 import _ from 'underscore';
-import {getList, updateData, auditData} from "../../api/agent";
+import {getList} from "../../api/agent";
 
 const fromMock = true;
 
@@ -14,7 +14,7 @@ class List extends React.Component {
             // page: 1,
             // limit: 10,
             // isNoMore: true,
-             total: 6,
+            total: 6,
             data: [{
                 id: 1,
                 logo: 'windows.png',
@@ -76,13 +76,11 @@ class List extends React.Component {
         };
         console.log('state = ', this.state)
     }
-
     componentWillReceiveProps = (newProps) => {
-        // this.setState(newProps, () => {
-        //
-        // });
+        if( newProps.addItem && !newProps.isShowModal ){
+            this.addItem(newProps.selectedId,newProps.addItem.split(','));
+        }
     };
-
     componentDidMount = () =>{
         this.getData();
     };
@@ -163,12 +161,35 @@ class List extends React.Component {
         }
     };
 
-    delData = () => {
-
+    delData = (index,index1) => {
+         //如果是实际场景可以去发请求，重新拉取数据渲染dom即可
+         let temp = this.state.data;
+         _.map(temp,function(item,ind){
+             if(ind === index) {
+                 item.opts = _.filter(item.opts,function(item1,ind1){
+                     return ind1 !== index1;
+                 })
+             }
+         });
+        this.setState({
+            data: temp
+        })
     };
 
-    addData = () => {
-
+    addItem = (index,data) =>{
+        let temp = this.state.data;
+        _.map(temp,function(item,ind){
+            if(ind === index) {
+                _.map(data,function(item1){
+                   if(item.opts.indexOf(item1) < 0){
+                       item.opts.push(item1);
+                   }
+                });
+            }
+        });
+        this.setState({
+            data: temp
+        })
     };
 
     deneyData = () => {
@@ -210,13 +231,16 @@ class List extends React.Component {
                                     <div className="list-item-action">
                                         <i onClick={() => {
                                             this.state.onStateChange({
-                                                isShowModal: true
+                                                isShowModal: true,
+                                                selectId: index
                                             })
                                         }} className="cp icon-plus"/>
                                         {
                                             item.opts.map((opt, ind) => {
                                                 return (
-                                                    <div key={index + '' + ind}>
+                                                    <div onClick={()=>{
+                                                        this.delData(index,ind)
+                                                    }} key={index + '' + ind}>
                                                         <span>{opt}</span>
                                                         <i className="icon-trash"/>
                                                     </div>

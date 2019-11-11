@@ -13,10 +13,11 @@ class App extends React.Component {
         super(props);
         this.state = {
             isShowModal: false, // modal的显示隐藏
+            selectId: null,    //list选中的ID
+            addedItem:null,    //增加项
             filterType: 0,     //tab过滤条件
             filterText: '',    //input过滤条件
             filterIcon: 0,     //icon过滤条件
-            listData: [],     //list数据
         }
     }
 
@@ -66,7 +67,7 @@ class App extends React.Component {
                         </Card>
                     </div>
                     <Filter onStateChange={this.onStateChange}></Filter>
-                    <List onStateChange={this.onStateChange}></List>
+                    <List  addItem={this.state.addItem} selectedId={this.state.selectId} onStateChange={this.onStateChange}></List>
                 </section>
                 <footer className="App-footer">
                     © Copyright 2017 ThoughtWorks
